@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86E2F0111B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E2F0121B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E2F0131B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
-		86E2F0141B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
+		86E2F0111B4EE700002D66BB /* WHIReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* WHIReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E2F0121B4EE700002D66BB /* WHIReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* WHIReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E2F0131B4EE700002D66BB /* WHIReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* WHIReachability.m */; };
+		86E2F0141B4EE700002D66BB /* WHIReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* WHIReachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		86E2EFD41B4EE3C9002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E2EFD71B4EE3C9002D66BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86E2EFF21B4EE3DE002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86E2F00F1B4EE700002D66BB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
-		86E2F0101B4EE700002D66BB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		86E2F00F1B4EE700002D66BB /* WHIReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHIReachability.h; path = ../WHIReachability.h; sourceTree = "<group>"; };
+		86E2F0101B4EE700002D66BB /* WHIReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHIReachability.m; path = ../WHIReachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 		86E2F00E1B4EE6D5002D66BB /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				86E2F00F1B4EE700002D66BB /* Reachability.h */,
-				86E2F0101B4EE700002D66BB /* Reachability.m */,
+				86E2F00F1B4EE700002D66BB /* WHIReachability.h */,
+				86E2F0101B4EE700002D66BB /* WHIReachability.m */,
 				86E2EFD71B4EE3C9002D66BB /* Info.plist */,
 			);
 			name = Framework;
@@ -73,7 +73,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0111B4EE700002D66BB /* Reachability.h in Headers */,
+				86E2F0111B4EE700002D66BB /* WHIReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0121B4EE700002D66BB /* Reachability.h in Headers */,
+				86E2F0121B4EE700002D66BB /* WHIReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 		86E2EFAA1B4EE3A2002D66BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					86E2EFD31B4EE3C9002D66BB = {
 						CreatedOnToolsVersion = 6.4;
@@ -180,7 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0131B4EE700002D66BB /* Reachability.m in Sources */,
+				86E2F0131B4EE700002D66BB /* WHIReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0141B4EE700002D66BB /* Reachability.m in Sources */,
+				86E2F0141B4EE700002D66BB /* WHIReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +208,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -217,6 +219,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -256,8 +259,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -288,6 +293,7 @@
 		86E2EFE81B4EE3C9002D66BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -300,6 +306,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonymillion.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_MODULE_NAME = Reachability;
 				PRODUCT_NAME = Reachability;
 				SKIP_INSTALL = YES;
@@ -309,6 +316,7 @@
 		86E2EFE91B4EE3C9002D66BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -317,6 +325,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonymillion.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_MODULE_NAME = Reachability;
 				PRODUCT_NAME = Reachability;
 				SKIP_INSTALL = YES;
@@ -341,6 +350,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonymillion.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_MODULE_NAME = Reachability;
 				PRODUCT_NAME = Reachability;
 				SDKROOT = macosx;
@@ -361,6 +371,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonymillion.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_MODULE_NAME = Reachability;
 				PRODUCT_NAME = Reachability;
 				SDKROOT = macosx;

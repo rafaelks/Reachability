@@ -13,7 +13,7 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'Reachability'
-  s.version      = '3.2'
+  s.version      = '3.2.1'
   s.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.'
 
   s.homepage     = 'https://github.com/tonymillion/Reachability'
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => 'BSD', :text => license }
 
-  s.source       = { :git => 'https://github.com/tonymillion/Reachability.git', :tag => "v#{s.version}" }
-  s.source_files = 'Reachability.{h,m}'
+  s.source       = { :git => 'https://github.com/rafaelks/WHIReachability.git', :tag => "v#{s.version}" }
+  s.source_files = 'WHIReachability.{h,m}'
   s.framework    = 'SystemConfiguration'
 
   s.requires_arc = true
